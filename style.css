@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Bebas Neue", cursive;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  height: 100vh;
+  background-image: url("main.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile > img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #222;
+  border-radius: 100%;
+}
+
+.profile > p {
+  font-size: 1.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: black;
+  text-transform: capitalize;
+  text-align: center;
+  text-shadow: 2px 1px #fff;
+}
+
+.linktree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.linktree > a {
+  text-decoration: none;
+  color: #222;
+  font-size: 24px;
+  border: 3px solid #222;
+  border-radius: 7px;
+  background-color: #eaeaea;
+  text-align: center;
+  margin: 5px 10px;
+  padding: 10px;
+}
+
+.linktree > a:hover {
+  background-color: azure;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer > i {
+    color: black;
+    font-size: 20px;
+    text-shadow: 1px 1px #fff;
+}
